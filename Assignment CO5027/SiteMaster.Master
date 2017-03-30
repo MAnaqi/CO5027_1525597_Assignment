@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="Assignment_CO5027.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8" />
+    <link href="CSS/StyleSheet1.css" rel="stylesheet" />
+
+    <title>Shoe Wardrobe</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <img src="Images/Banner.PNG" runat="server" />
+    <nav>
+        <ul>
+            <li><a href="~/Admin/Default.aspx" runat="server">Home</a></li>
+            <li><a href="~/Product.aspx" runat="server">Product</a></li>
+            <li><a href="~/AboutUs.aspx" runat="server">About Us</a></li>
+            <li><a href="~/Contact.aspx" runat="server">Contact</a></li>
+        </ul>
+    </nav>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <footer>
+            Created by: Muhd Anaqi Bin Yaman ID:1525597
+        </footer>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,167 @@
+﻿body {
+    background-image: url('../Images/Shoe background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Navigation Bar Itself*/
+
+nav{
+text-align: center;
+width: 50%;
+margin:  auto;
+background-color:#000000;
+padding: 6px;
+border-style:solid;
+border-color:#000080;
+overflow:hidden;
+
+}
+
+/* Navigation Bar List Items*/
+
+nav li{
+list-style:square;
+display: inline-block;
+font-size: 1.2em;
+margin: 0px 20px;
+}
+
+/* Navigation Bar Unordered List*/
+
+nav ul{
+padding-left: 0;
+}
+
+/* Navigation Bar Links */
+
+nav a{
+text-decoration: none;
+color: white;
+}
+
+/* Navigation Bar Elements with the .selected class and when you hover over the list items*/
+
+.selected, nav a:hover{
+color: #F7FE2E;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center {
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    background-color: #FFF;
+    border-style: solid;
+    border-color: #000080;
+    height:auto;
+    overflow:auto;
+}
+
+h1 {
+    margin:auto;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin:auto;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+div.nikeshoes {
+    margin-bottom: 2%;
+    float: left;
+    width: 100%;
+    overflow:auto;
+    
+}
+
+div.nikeshoes ul{
+    list-style-type: none;
+    margin:0px auto;
+    padding-left:3%;
+    width:100%;
+    
+}
+
+div.nikeshoes ul li{
+    float:left;
+    margin-left:8%;
+    margin-bottom:0%;
+    width: 321px;
+    height: 545px;
+    margin-right: 18px;
+}
+
+div.nikeshoes ul li img{
+    margin-bottom:20%;
+    margin-top:10%;
+    width: 268px;
+    height: 222px;
+    border:solid #000000;
+}
+
+div.NBShoes {
+    margin-bottom: 2%;
+    float: left;
+    width: 100%;
+    overflow:auto;
+    
+}
+
+div.NBShoes ul{
+    list-style-type: none;
+    margin:0px auto;
+    padding-left:3%;
+    width:100%;
+}
+
+div.NBShoes ul li{
+    float:left;
+    margin-left:8%;
+    margin-bottom:0%;
+    width: 321px;
+    height: 545px;
+    margin-right: 18px;
+}
+
+div.NBShoes ul li img{
+    margin-bottom:20%;
+    margin-top:10%;
+    width: 268px;
+    height: 222px;
+    border:solid #000000;
+}
+
+.Desc {
+    text-align:center;
+    font-size:15px;
+    margin-top:0.5em;
+    line-height:0.5em;
+    width:100%;
+}
+
+.Cost{
+    text-align:center;
+    font-size:15px;
+    margin-top:0.5em;
+    line-height:0.5em;
+    width:100%;
+    padding-top:3%;
+}
+
+.Availability{
+    text-align:center;
+    font-size:15px;
+    margin-top:0.5em;
+    line-height:0.5em;
+    width:100%;
+    padding-top:3%;
+}
