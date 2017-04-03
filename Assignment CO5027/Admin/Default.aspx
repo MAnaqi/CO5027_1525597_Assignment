@@ -7,7 +7,7 @@
     <div id="ninja-slider">
         <div class="slider-inner">
             <ul>
-                <li>
+               <li>
                     <a class="ns-img" href="../Images/Air Jordan 1 Bred.jpg"></a>
                     <div class="caption">@Shoe Wardrobe</div>
                 </li>
