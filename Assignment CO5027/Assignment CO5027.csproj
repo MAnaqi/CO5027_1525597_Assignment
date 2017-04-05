@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
-    <Content Include="Admin\Default.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Images\Air Jordan 1 Bred.jpg" />
@@ -145,7 +145,9 @@
     <Content Include="Images\Nike wallpaper.jpg" />
     <Content Include="Images\Nike Zoom Flyknit Streak %28tokyo%29.jpg" />
     <Content Include="Product.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AboutUs.aspx.cs">
@@ -155,11 +157,11 @@
     <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Default.aspx.cs">
+    <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Admin\Default.aspx.designer.cs">
+    <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
