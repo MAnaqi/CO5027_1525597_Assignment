@@ -23,7 +23,7 @@
                     <div class="caption">@Shoe Wardrobe</div>
                 </li>
                 <li>
-                    <!-- -->
+                    <!--Nike Zoom Flyknit Streak (tokyo) retrieve from www.sneakernews.com-->
                     <a class="ns-img" href="Images/Nike Zoom Flyknit Streak (tokyo).jpg"></a>
                     <div class="caption cap1">Long Lasting</div>
                     <div class="caption cap1 cap2">Comfort</div>
