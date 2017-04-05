@@ -8,17 +8,22 @@
         <div class="slider-inner">
             <ul>
                <li>
+                   <!--Air Jordan 1 image retrieve from www.jordansdaily.com -->
                     <a class="ns-img" href="Images/Air Jordan 1 Bred.jpg"></a>
                     <div class="caption">@Shoe Wardrobe</div>
                 </li>
-                <li><a class="ns-img" href="Images/New Balance 501 Ripple Sole.jpg"></a>
+                <li>
+                    <!--New Balance 501 Ripple Sole image retrieve from www.Newbalance.com -->
+                    <a class="ns-img" href="Images/New Balance 501 Ripple Sole.jpg"></a>
                     <div class="caption">@Shoe Wardrobe</div>
                 </li>
                 <li>
+                    <!--Air Jordan 6 image retrieve from www.sneakernews.com-->
                     <a class="ns-img" href="Images/Air jordan 6 Alternate.jpg"></a>
                     <div class="caption">@Shoe Wardrobe</div>
                 </li>
                 <li>
+                    <!-- -->
                     <a class="ns-img" href="Images/Nike Zoom Flyknit Streak (tokyo).jpg"></a>
                     <div class="caption cap1">Long Lasting</div>
                     <div class="caption cap1 cap2">Comfort</div>
