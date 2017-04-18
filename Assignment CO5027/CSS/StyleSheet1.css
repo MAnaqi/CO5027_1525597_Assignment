@@ -54,12 +54,12 @@ img {
 }
 .center {
     margin: auto;
-    width: 70%;
+    width: 77%;
     padding: 20px;
     background-color: #FFF;
     border-style: solid;
     border-color: #000080;
-    height:auto;
+    height:549px;
     overflow:auto;
 }
 
@@ -164,4 +164,25 @@ div.NBShoes ul li img{
     line-height:0.5em;
     width:100%;
     padding-top:3%;
+}
+.Register {
+	text-align:center;
+}
+
+.Register a
+{
+	text-decoration:none;
+	font-size:25px;
+	display:inline-block;
+	padding:16px;
+	color: #000000;
+	background-color:#ff0000;
+    border-radius:5px;
+
+}
+
+.Register a:hover
+{
+	color: #FFFFFF;
+	background-color: #6E9BE9;
 }

@@ -33,5 +33,7 @@
             <div class="fs-icon" title="Expand/Close"></div>
         </div>
     </div>
-
+    <div class="Register">
+        <a href="Register.aspx">Register now</a>
+    </div>
 </asp:Content>

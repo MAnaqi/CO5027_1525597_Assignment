@@ -6,6 +6,13 @@
     <h1>Login</h1>
     Name:<asp:TextBox ID="TextBox1" runat="server" Height="24px" style="margin-left: 38px; margin-right: 0px" Width="136px"></asp:TextBox>
     <br />
-    Password:<asp:TextBox ID="TextBox2" runat="server" style="margin-left: 19px; margin-top: 17px" Width="135px"></asp:TextBox>
+    Password:<asp:TextBox ID="TextBox2" runat="server" style="margin-left: 19px; margin-top: 17px" Width="135px" TextMode="Password"></asp:TextBox>
+        <br />
+        <br />
+        <asp:Button ID="Button1" runat="server" style="margin-left: 170px" Text="Login" />
+        <br />
+        <p>Not registered? <a href="Register.aspx">Click Here</a></p>
     </div>
+    
+
 </asp:Content>
