@@ -59,8 +59,8 @@ img {
     background-color: #FFF;
     border-style: solid;
     border-color: #000080;
-    height:549px;
-    overflow:auto;
+    height:auto;
+    overflow:hidden;
 }
 
 h1 {

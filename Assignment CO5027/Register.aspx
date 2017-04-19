@@ -10,8 +10,12 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
         <br />
         <br />
-        Gender:<asp:TextBox ID="GText" runat="server" Height="22px" style="margin-left: 47px" Width="110px"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="GValidator" runat="server" ControlToValidate="GText" ErrorMessage="Gender Required" ForeColor="Red"></asp:RequiredFieldValidator>
+        Gender:<asp:DropDownList ID="DDText" runat="server" Height="48px" style="margin-left: 49px" Width="106px">
+            <asp:ListItem>Select Gender</asp:ListItem>
+            <asp:ListItem>Male</asp:ListItem>
+            <asp:ListItem>Female</asp:ListItem>
+        </asp:DropDownList>
+        <asp:RequiredFieldValidator ID="GValidator" runat="server" ControlToValidate="DDText" ErrorMessage="Gender Required" ForeColor="Red" InitialValue="Select Gender"></asp:RequiredFieldValidator>
     <br />
     <br />
     UserName:<asp:TextBox ID="UNText" runat="server" Height="27px" style="margin-left: 25px" Width="301px"></asp:TextBox>

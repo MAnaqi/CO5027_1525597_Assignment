@@ -20,11 +20,19 @@ namespace Assignment_CO5027
             var identityDbContext = new IdentityDbContext("IdentityConnectionString");
             var Store = new UserStore<IdentityUser>(identityDbContext);
             var manager = new UserManager<IdentityUser>(Store);
-            var user = new IdentityUser() { UserName = EText.Text, Email = EText.Text };
+
+            var rolestore = new RoleStore<IdentityRole>(identityDbContext);
+            var roleManager = new RoleManager<IdentityRole>(rolestore);
+
+            var user = new IdentityUser() { UserName = UNText.Text, Email = EText.Text };
             IdentityResult result = manager.Create(user, PText.Text);
+
+            IdentityRole endUserRole = new IdentityRole("endUser");
+            roleManager.Create(endUserRole);
+            manager.AddToRole(user.Id, "endUser");
             if (result.Succeeded)
             {
-
+                Server.Transfer("Login.aspx", true);
             }
             else
             {

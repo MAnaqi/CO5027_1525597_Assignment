@@ -25,7 +25,8 @@ namespace Assignment_CO5027
             var user = Manager.Find(UNtext.Text, PWDText.Text);
             if (user != null)
             {
-
+                LogUserIn(Manager, user);
+                Server.Transfer("privatepage.aspx", true);
             }
             else
             {
@@ -36,7 +37,7 @@ namespace Assignment_CO5027
         {
             var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
             var UserIdentity = usermanager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
-            authenticationManager.SignIn(new AuthenticationProperties( { }, UserIdentity);
+            authenticationManager.SignIn(new AuthenticationProperties() { }, UserIdentity);
         }
     }
 }
