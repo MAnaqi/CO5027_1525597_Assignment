@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <script src="Scripts/GoogleMap.js"></script>
     <div class="center" >
         <h1>Contact</h1>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name:<asp:TextBox ID="TxtName" runat="server" Height="34px" style="margin-left: 12px; margin-top: 14px" Width="271px"></asp:TextBox>
@@ -23,5 +24,12 @@
             <br />
         <br />
             <asp:Literal ID="LiteralTxt" runat="server"></asp:Literal>
-    </div> 
+        </div>
+        <div class="center">
+            <h3>Our Location</h3>
+            <div id="map"></div> 
+            <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACMLbVxP3hQRmdRyGRXDuPf4JjEQUtBq8&callback=initMap">
+    </script>
+        </div>
 </asp:Content>
