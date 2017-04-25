@@ -7,8 +7,10 @@
         <br />
         <br />
         UserName:<asp:TextBox ID="UNtext" runat="server" Height="24px" style="margin-left: 14px; margin-right: 0px" Width="136px"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="UserNameValidator" runat="server" ControlToValidate="UNtext" ErrorMessage="UserName Required" ForeColor="Red"></asp:RequiredFieldValidator>
     <br />
     Password:<asp:TextBox ID="PWDText" runat="server" style="margin-left: 19px; margin-top: 17px" Width="135px" TextMode="Password"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="PasswordValidator" runat="server" ControlToValidate="PWDText" ErrorMessage="Password Required" ForeColor="Red"></asp:RequiredFieldValidator>
         <br />
         <br />
         <asp:Button ID="LoginBtn" runat="server" style="margin-left: 170px" Text="Login" OnClick="LoginBtn_Click" />

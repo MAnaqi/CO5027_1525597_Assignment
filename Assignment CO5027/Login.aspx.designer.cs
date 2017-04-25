@@ -22,6 +22,15 @@ namespace Assignment_CO5027 {
         protected global::System.Web.UI.WebControls.TextBox UNtext;
         
         /// <summary>
+        /// UserNameValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator UserNameValidator;
+        
+        /// <summary>
         /// PWDText control.
         /// </summary>
         /// <remarks>
@@ -29,6 +38,15 @@ namespace Assignment_CO5027 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox PWDText;
+        
+        /// <summary>
+        /// PasswordValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator PasswordValidator;
         
         /// <summary>
         /// LoginBtn control.
