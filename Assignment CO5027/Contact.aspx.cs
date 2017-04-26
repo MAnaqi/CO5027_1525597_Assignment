@@ -19,37 +19,37 @@ namespace Assignment_CO5027
         {
             try
             {
-                if (Page.IsValid)
-                {
-                    MailMessage MailMsg = new MailMessage();
-                    MailMsg.From = new MailAddress("anaqi313@gmail.com");
-                    MailMsg.To.Add(TxtEmail.Text);
-                    MailMsg.Subject = TxtSubject.Text;
+                SmtpClient client = new SmtpClient();
+                client.Host = "smtp.gmail.com";
+                client.Port = 587;
+                client.EnableSsl = true;
 
-                    SmtpClient smtpClient = new SmtpClient();
-                    smtpClient.EnableSsl = true;
-                    smtpClient.UseDefaultCredentials = false;
-                    System.Net.NetworkCredential credentials =
-                        new System.Net.NetworkCredential("anaqi313@gmail.com", "AZ313710");
-                    smtpClient.Host = "smtp.gmail.com";
-                    smtpClient.Port = 587;
-                    smtpClient.Credentials = credentials;
+                System.Net.NetworkCredential userCredentials = new System.Net.NetworkCredential("anaqiyaman@gmail.com", "Anaqi8156211");
+                client.Credentials = userCredentials;
 
-                    MailMessage msg = new MailMessage("anaqi313@gmail.com", TxtEmail.Text);
-                    msg.Subject = "Name: " + TxtName.Text + " Subject: " + TxtSubject.Text;
-                    msg.Body = TxtMessage.Text;
-                    smtpClient.Send(MailMsg);
-                    MailMsg.IsBodyHtml = true;
 
-                    LiteralTxt.Text = "<p>Success: Success sending message</p>";
+                MailMessage message = new MailMessage();
+                message.From = new MailAddress("anaqiyaman@gmail.com");
+                message.To.Add("anaqiyaman@gmail.com");
 
-                }
+                message.Subject = TxtSubject.Text;
+                message.Body = "From: " + TxtEmail.Text + "\n" + "name: " + TxtName.Text + "\n";
+                    message.Body += "message: " + TxtMessage.Text;
+
+                client.Send(message);
+
+                TxtMessage.Text = "";
+
+
+                LiteralTxt.Text = "<p>Success: Success sending message</p>";
+
             }
-
             catch (Exception ex)
             {
-                LiteralTxt.Text = "<p>Failed: " + ex.Message + ";" + ex.InnerException + "</p>";
+                LiteralTxt.Text = "Send failed: " + ex.Message + ":" + ex.InnerException;
             }
-            }
+
+
+        }
         }
     }

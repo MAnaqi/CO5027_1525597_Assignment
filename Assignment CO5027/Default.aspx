@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <link href="CSS/ninja-slider.css" rel="stylesheet" />
+    <link href="CSS/ninja-slider.css" rel="stylesheet" type="text/css" />
     <script src="JS/ninja-slider.js"></script>
     <div id="ninja-slider">
         <div class="slider-inner">
