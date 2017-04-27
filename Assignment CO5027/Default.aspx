@@ -10,23 +10,27 @@
                <li>
                    <!--Air Jordan 1 image retrieve from www.jordansdaily.com -->
                     <a class="ns-img" href="Images/Air Jordan 1 Bred.jpg"></a>
+                   <img src="Images/Air%20Jordan%201%20Bred.jpg" alt="Air Jordan 1 Bred"/>
                     <div class="caption">@Shoe Wardrobe</div>
+                   <img src="Images/Air%20Jordan%201%20Bred.jpg" />
                 </li>
                 <li>
                     <!--New Balance 501 Ripple Sole image retrieve from www.Newbalance.com -->
                     <a class="ns-img" href="Images/New Balance 501 Ripple Sole.jpg"></a>
+                    <img src="Images/New%20Balance%20501%20Ripple%20Sole.jpg" alt="New Balance 501 Ripple Sole"/>
                     <div class="caption">@Shoe Wardrobe</div>
                 </li>
                 <li>
                     <!--Air Jordan 6 image retrieve from www.sneakernews.com-->
                     <a class="ns-img" href="Images/Air jordan 6 Alternate.jpg"></a>
+                    <img src="Images/Air%20jordan%206%20Alternate.jpg" alt="Air Jordan 6 Alternate"/>
                     <div class="caption">@Shoe Wardrobe</div>
                 </li>
                 <li>
                     <!--Nike Zoom Flyknit Streak (tokyo) retrieve from www.sneakernews.com-->
                     <a class="ns-img" href="Images/Nike Zoom Flyknit Streak (tokyo).jpg"></a>
-                    <div class="caption cap1">Long Lasting</div>
-                    <div class="caption cap1 cap2">Comfort</div>
+                    <img src="Images/Nike%20Zoom%20Flyknit%20Streak%20(tokyo).jpg" alt="Nike Zoom Flyknit Streak (tokyo)"/>
+                    <div class="caption cap1">Comfort</div>
                     <div class="caption">@Shoe Wardrobe</div>
                 </li>
             </ul>
