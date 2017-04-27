@@ -40,4 +40,5 @@
                 <p class="Register"><strong>Negara Brunei Darussalam.</strong></p>
             </div>
         </div>
+    <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1525597.studentwebserver.co.uk%2FCO5027%2FContact.aspx">Contact page html validaion</a>
 </asp:Content>

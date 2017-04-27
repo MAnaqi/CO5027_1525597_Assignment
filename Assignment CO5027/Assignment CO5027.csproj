@@ -148,10 +148,10 @@
     <Content Include="Images\Banner.PNG" />
     <Content Include="Images\close.png" />
     <Content Include="Images\loading.gif" />
-    <Content Include="Images\NB logo.png" />
+    <Content Include="Images\NB_logo.png" />
     <Content Include="Images\next.png" />
-    <Content Include="Images\nike air presto.jpg" />
-    <Content Include="Images\Nike logo.png" />
+    <Content Include="Images\nike_air_presto.jpg" />
+    <Content Include="Images\Nike_logo.png" />
     <Content Include="Images\nike-shoe-wallpaper.jpg" />
     <Content Include="Images\prev.png" />
     <Content Include="Images\Shoe background.jpg" />
@@ -185,16 +185,16 @@
     <Content Include="Default.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Images\Air Jordan 1 Bred.jpg" />
-    <Content Include="Images\Air jordan 6 Alternate.jpg" />
+    <Content Include="Images\Air_Jordan_1_Bred.jpg" />
+    <Content Include="Images\Air_jordan_6_Alternate.jpg" />
     <Content Include="Images\logo.jpg" />
-    <Content Include="Images\New Balance 247 Sport.jpg" />
-    <Content Include="Images\New Balance 501 Ripple Sole.jpg" />
-    <Content Include="Images\New Balance 530 90s Running Solids.jpg" />
-    <Content Include="Images\New Balance 574 leather.jpg" />
+    <Content Include="Images\New_Balance_247_Sport.jpg" />
+    <Content Include="Images\New_Balance_501_Ripple_Sole.jpg" />
+    <Content Include="Images\New_Balance_530_90s_Running_Solids.jpg" />
+    <Content Include="Images\New_Balance_574_leather.jpg" />
     <Content Include="Images\New balance wallpaper.jpg" />
     <Content Include="Images\Nike wallpaper.jpg" />
-    <Content Include="Images\Nike Zoom Flyknit Streak %28tokyo%29.jpg" />
+    <Content Include="Images\Nike_Zoom_Flyknit_Streak_%28tokyo%29.jpg" />
     <Content Include="Product.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

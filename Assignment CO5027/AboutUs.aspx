@@ -18,4 +18,5 @@
             He explained to customers that the chicken's three-pronged foot resulted in perfect balance. In 1927, Riley hired Arthur Hall to be a salesman. In 1934, Hall became a business partner and found his niche by marketing to people whose jobs required them to spend a lot of time standing. 
             In 1956, Hall sold the business to his daughter Eleanor and her husband Paul Kidd.</p>
     </div>
+    <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1525597.studentwebserver.co.uk%2FCO5027%2FAboutUs.aspx">AboutUs page html validation</a>
 </asp:Content>

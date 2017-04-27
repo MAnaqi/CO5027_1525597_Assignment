@@ -10,25 +10,25 @@
                <li>
                    <!--Air Jordan 1 image retrieve from www.jordansdaily.com -->
                     <a class="ns-img" href="Images/Air_Jordan_1_Bred.jpg"></a>
-                   <img src="Images/Air%20Jordan%201%20Bred.jpg" alt="Air Jordan 1 Bred"/>
+                   <img src="Images/Air_Jordan_1_Bred.jpg" alt="Air_Jordan_1_Bred"/>
                     <div class="caption">@Shoe Wardrobe</div>
                 </li>
                 <li>
                     <!--New Balance 501 Ripple Sole image retrieve from www.Newbalance.com -->
                     <a class="ns-img" href="Images/New_Balance_501_Ripple_Sole.jpg"></a>
-                    <img src="Images/New%20Balance%20501%20Ripple%20Sole.jpg" alt="New Balance 501 Ripple Sole"/>
+                    <img src="Images/New_Balance_501_Ripple_Sole.jpg" alt="New Balance_501_Ripple_Sole"/>
                     <div class="caption">@Shoe Wardrobe</div>
                 </li>
                 <li>
                     <!--Air Jordan 6 image retrieve from www.sneakernews.com-->
                     <a class="ns-img" href="Images/Air_jordan_6_Alternate.jpg"></a>
-                    <img src="Images/Air%20jordan%206%20Alternate.jpg" alt="Air Jordan 6 Alternate"/>
+                    <img src="Images/Air_jordan_6_Alternate.jpg" alt="Air_Jordan_6_Alternate"/>
                     <div class="caption">@Shoe Wardrobe</div>
                 </li>
                 <li>
                     <!--Nike Zoom Flyknit Streak (tokyo) retrieve from www.sneakernews.com-->
                     <a class="ns-img" href="Images/Nike_Zoom_Flyknit_Streak_(tokyo).jpg"></a>
-                    <img src="Images/Nike%20Zoom%20Flyknit%20Streak%20(tokyo).jpg" alt="Nike Zoom Flyknit Streak (tokyo)"/>
+                    <img src="Images/Nike_Zoom_Flyknit_Streak_(tokyo).jpg" alt="Nike_Zoom_Flyknit_Streak_(tokyo)"/>
                     <div class="caption">@Shoe Wardrobe</div>
                 </li>
             </ul>
@@ -38,4 +38,5 @@
     <div class="Register">
         <a href="Register.aspx">Register now</a>
     </div>
+    <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1525597.studentwebserver.co.uk%2FCO5027%2FDefault.aspx">Default Page Html validator</a>
 </asp:Content>
