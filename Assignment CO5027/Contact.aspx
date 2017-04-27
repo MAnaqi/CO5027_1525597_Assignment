@@ -28,6 +28,7 @@
         <div class="center">
             <h3>Our Location</h3>
             <div id="map"></div> 
+            <!-- This is the JQuery For Google Map -->
             <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACMLbVxP3hQRmdRyGRXDuPf4JjEQUtBq8&callback=initMap">
     </script>
