@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link href="CSS/StyleSheet1.css" rel="stylesheet" type="text/css" />
     <script src="Scripts/jquery-3.1.1.js" type="text/javascript"></script>
     <title>Shoe Wardrobe</title>
@@ -12,7 +12,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <img src="Images/Banner.PNG" runat="server" />
+    <img src="Images/Banner.PNG" alt="Banner" runat="server" />
     <nav>
         <ul>
             <li><a href="~/Default.aspx" runat="server">Home</a></li>

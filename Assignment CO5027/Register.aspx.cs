@@ -27,6 +27,7 @@ namespace Assignment_CO5027
             var user = new IdentityUser() { UserName = UNText.Text, Email = EText.Text };
             IdentityResult result = manager.Create(user, PText.Text);
 
+
             IdentityRole endUserRole = new IdentityRole("endUser");
             roleManager.Create(endUserRole);
             manager.AddToRole(user.Id, "endUser");
