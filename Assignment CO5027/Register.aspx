@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="center">
-        <h1>Register</h1>
+        <h1>UserRegister</h1>
         <br />
     FullName:<asp:TextBox ID="FNText" runat="server" Height="23px" style="margin-left: 32px" Width="302px"></asp:TextBox>
     <asp:RequiredFieldValidator ID="FNValidator" runat="server" ControlToValidate="FNText" ErrorMessage="Name Required" ForeColor="Red"></asp:RequiredFieldValidator> 

@@ -16,7 +16,6 @@
     <nav>
         <ul>
             <li><a href="~/Default.aspx" runat="server">Home</a></li>
-            <li><a href="~/Product.aspx" runat="server">Product</a></li>
             <li><a href="~/AboutUs.aspx" runat="server">About Us</a></li>
             <li><a href="~/Contact.aspx" runat="server">Contact</a></li>
             <li><a href="~/Login.aspx" runat="server">Log in</a></li>
