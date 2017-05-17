@@ -10,60 +10,42 @@
 namespace Assignment_CO5027 {
     
     
-    public partial class Login {
+    public partial class UploadImage {
         
         /// <summary>
-        /// textLoginEmail control.
+        /// ImageFileUploadControl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textLoginEmail;
+        protected global::System.Web.UI.WebControls.FileUpload ImageFileUploadControl;
         
         /// <summary>
-        /// UserNameValidator control.
+        /// UBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator UserNameValidator;
+        protected global::System.Web.UI.WebControls.Button UBtn;
         
         /// <summary>
-        /// textLoginPwd control.
+        /// BackBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textLoginPwd;
+        protected global::System.Web.UI.WebControls.Button BackBtn;
         
         /// <summary>
-        /// PasswordValidator control.
+        /// CurrentImage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator PasswordValidator;
-        
-        /// <summary>
-        /// LoginBtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button LoginBtn;
-        
-        /// <summary>
-        /// LiteText control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal LiteText;
+        protected global::System.Web.UI.WebControls.Image CurrentImage;
     }
 }

@@ -142,6 +142,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin.aspx" />
     <Content Include="CSS\lightbox.css" />
     <Content Include="CSS\ninja-slider.css" />
     <Content Include="CSS\StyleSheet1.css" />
@@ -163,8 +164,15 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
-    <Content Include="privatepage.aspx" />
-    <Content Include="Register.aspx" />
+    <Content Include="productdetail.aspx" />
+    <Content Include="ProductImage\Air_Jordan_1_Bred.jpg" />
+    <Content Include="ProductImage\Air_jordan_6_Alternate.jpg" />
+    <Content Include="ProductImage\New_Balance_247_Sport.jpg" />
+    <Content Include="ProductImage\New_Balance_501_Ripple_Sole.jpg" />
+    <Content Include="ProductImage\New_Balance_530_90s_Running_Solids.jpg" />
+    <Content Include="ProductImage\New_Balance_574_leather.jpg" />
+    <Content Include="ProductImage\nike_air_presto.jpg" />
+    <Content Include="ProductImage\Nike_Zoom_Flyknit_Streak_%28tokyo%29.jpg" />
     <Content Include="Scripts\GoogleMap.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
@@ -195,6 +203,7 @@
     <Content Include="Images\New balance wallpaper.jpg" />
     <Content Include="Images\Nike wallpaper.jpg" />
     <Content Include="Images\Nike_Zoom_Flyknit_Streak_%28tokyo%29.jpg" />
+    <Content Include="UploadImage.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -206,6 +215,13 @@
     </Compile>
     <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -231,21 +247,14 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="privatepage.aspx.cs">
-      <DependentUpon>privatepage.aspx</DependentUpon>
+    <Compile Include="productdetail.aspx.cs">
+      <DependentUpon>productdetail.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="privatepage.aspx.designer.cs">
-      <DependentUpon>privatepage.aspx</DependentUpon>
+    <Compile Include="productdetail.aspx.designer.cs">
+      <DependentUpon>productdetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-    </Compile>
     <Compile Include="SiteMaster.Master.cs">
       <DependentUpon>SiteMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -254,6 +263,13 @@
       <DependentUpon>SiteMaster.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="UploadImage.aspx.cs">
+      <DependentUpon>UploadImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadImage.aspx.designer.cs">
+      <DependentUpon>UploadImage.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

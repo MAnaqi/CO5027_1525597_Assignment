@@ -47,20 +47,20 @@ color: white;
 color: #F7FE2E;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.banner {
+    float:left;
+    margin-left:100px;
 }
 .center {
     margin: auto;
-    width: 77%;
-    padding: 20px;
+    width: 60%;
     background-color: #FFF;
     border-style: solid;
     border-color: #000080;
     height:auto;
     overflow:hidden;
+    padding-left:50px;
+
 }
 
 h1 {
@@ -75,70 +75,12 @@ h2 {
     margin-right: auto;
 }
 
-div.nikeshoes {
-    margin-bottom: 2%;
-    float: left;
-    width: 100%;
-    overflow:auto;
-    
-}
-
-div.nikeshoes ul{
-    list-style-type: none;
-    margin:0px auto;
-    padding-left:3%;
-    width:100%;
-    
-}
-
-div.nikeshoes ul li{
+.Shoes {
     float:left;
-    margin-left:8%;
-    margin-bottom:0%;
-    width: 321px;
-    height: 545px;
-    margin-right: 18px;
+    margin-right:50px;
 }
 
-div.nikeshoes ul li img{
-    margin-bottom:20%;
-    margin-top:10%;
-    width: 268px;
-    height: 222px;
-    border:solid #000000;
-}
 
-div.NBShoes {
-    margin-bottom: 2%;
-    float: left;
-    width: 100%;
-    overflow:auto;
-    
-}
-
-div.NBShoes ul{
-    list-style-type: none;
-    margin:0px auto;
-    padding-left:3%;
-    width:100%;
-}
-
-div.NBShoes ul li{
-    float:left;
-    margin-left:8%;
-    margin-bottom:0%;
-    width: 321px;
-    height: 545px;
-    margin-right: 18px;
-}
-
-div.NBShoes ul li img{
-    margin-bottom:20%;
-    margin-top:10%;
-    width: 268px;
-    height: 222px;
-    border:solid #000000;
-}
 
 .Desc {
     text-align:center;
@@ -146,6 +88,7 @@ div.NBShoes ul li img{
     margin-top:0.5em;
     line-height:0.5em;
     width:100%;
+    list-style-type:none;
 }
 
 .Cost{
@@ -153,6 +96,7 @@ div.NBShoes ul li img{
     font-size:15px;
     margin-top:0.5em;
     line-height:0.5em;
+    margin-bottom:3%;
     width:100%;
     padding-top:3%;
 }
@@ -162,6 +106,7 @@ div.NBShoes ul li img{
     font-size:15px;
     margin-top:0.5em;
     line-height:0.5em;
+    margin-bottom:10%;
     width:100%;
     padding-top:3%;
 }

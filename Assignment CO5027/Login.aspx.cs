@@ -22,11 +22,11 @@ namespace Assignment_CO5027
             var identityDbContext = new IdentityDbContext("IdentityConnectionString");
             var Store = new UserStore<IdentityUser>(identityDbContext);
             var Manager = new UserManager<IdentityUser>(Store);
-            var user = Manager.Find(UNtext.Text, PWDText.Text);
+            var user = Manager.Find(textLoginEmail.Text, textLoginPwd.Text);
             if (user != null)
             {
                 LogUserIn(Manager, user);
-                Server.Transfer("privatepage.aspx", true);
+                Server.Transfer("admin.aspx", true);
             }
             else
             {
